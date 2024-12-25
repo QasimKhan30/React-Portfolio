@@ -17,7 +17,7 @@ export const EXPERIENCES = [
     role: "Specialist",
     company: "Apple",
     image: experienceApple,
-    description: `As a Specialist at Apple, I delivered exceptional technical support...`,
+    description: `Provided expert technical support and troubleshooting for Apple devices, ensuring an exceptional customer experience. Leveraged deep knowledge of Apple technologies to resolve complex issues and educate customers on product usage. Played a key role in onboarding and mentoring new staff, contributing to a highly skilled and efficient team.`,
     technologies: ["Troubleshooting", "Customer Support"],
   },
   {
@@ -25,7 +25,7 @@ export const EXPERIENCES = [
     role: "Teaching Assistant",
     company: "George Mason University",
     image: experienceGMU, 
-    description: `Assisted professors in preparing and grading assignments...`,
+    description: `Supported undergraduate education by simplifying complex computer science concepts for students through clear communication and organized review sessions. Collaborated with professors to prepare, and enhance course materials. Created a supportive learning environment during office hours, helping students achieve academic success.`,
     technologies: ["Teaching", "Communication", "C"],
   },
 ];
