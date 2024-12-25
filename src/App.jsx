@@ -7,6 +7,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import DownloadResume from './components/Resume'
+import Certifications from './components/Certifications'
 
 const App = () => {
   return (
@@ -24,6 +25,9 @@ const App = () => {
 
         {/* About Section */}
         <About />
+
+        {/* Certifications Section */}
+        <Certifications />
 
         {/* Technologies Section */}
         <Technologies />
