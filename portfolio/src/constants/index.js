@@ -3,23 +3,29 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
+import experienceApple from "../assets/experience/experience-apple.png";
+import experienceGMU from "../assets/experience/experience-GMU.png";
+
 export const HERO_CONTENT = `I’m an AI enthusiast and problem-solver who thrives at the intersection of innovation and impact. From crafting intelligent trading bots to pushing the limits of software development, I harness the power of Python, Java, and JavaScript to build systems that turn bold ideas into reality. Let’s reimagine what technology can do—together.`;
 
 export const ABOUT_TEXT = `Fueled by curiosity and a passion for innovation, I specialize in bringing complex ideas to life through code. My journey spans building sentiment-driven trading bots, optimizing OS kernels, and engineering scalable solutions. When I’m not diving into the world of AI, I’m exploring the latest tech trends or contributing to open-source communities. For me, every challenge is an opportunity to create something extraordinary.`;
+
 
 export const EXPERIENCES = [
   {
     year: "2023 - 2024",
     role: "Specialist",
     company: "Apple",
-    description: `As a Specialist at Apple, I delivered exceptional technical support, resolving complex hardware and software issues with a high success rate.I contributed to the team's efficiency by onboarding and mentoring new employees, ensuring they were well-equipped to handle customer interactions. My focus on customer satisfaction consistently resulted in positive feedback and high satisfaction scores.`,
+    image: experienceApple,
+    description: `Provided expert technical support and troubleshooting for Apple devices, ensuring an exceptional customer experience. Leveraged deep knowledge of Apple technologies to resolve complex issues and educate customers on product usage. Played a key role in onboarding and mentoring new staff, contributing to a highly skilled and efficient team.`,
     technologies: ["Troubleshooting", "Customer Support"],
   },
   {
     year: "2021 - 2023",
     role: "Teaching Assistant",
     company: "George Mason University",
-    description: `Assisted professors in preparing and grading assignments, organized review sessions, and explained complex concepts to students.`,
+    image: experienceGMU, 
+    description: `Supported undergraduate education by simplifying complex computer science concepts for students through clear communication and organized review sessions. Collaborated with professors to prepare, and enhance course materials. Created a supportive learning environment during office hours, helping students achieve academic success.`,
     technologies: ["Teaching", "Communication", "C"],
   },
 ];
@@ -57,6 +63,5 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Austin, TX",
-  phoneNo: "571-899-1922",
   email: "qasimkhan@utexas.edu",
 };
