@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 import experienceApple from "../assets/experience/experience-apple.png";
 import experienceGMU from "../assets/experience/experience-GMU.png";
+import experienceTxDOT from "../assets/experience/experience-TxDOT.png";
 
 export const HERO_CONTENT = `I’m an AI enthusiast and problem-solver who thrives at the intersection of innovation and impact. From crafting intelligent trading bots to pushing the limits of software development, I harness the power of Python, Java, and JavaScript to build systems that turn bold ideas into reality. Let’s reimagine what technology can do—together.`;
 
@@ -12,6 +13,14 @@ export const ABOUT_TEXT = `Fueled by curiosity and a passion for innovation, I s
 
 
 export const EXPERIENCES = [
+  {
+    year: "2025 - Present",
+    role: "AI Intern",
+    company: "Texas Department of Transportation",
+    image: experienceTxDOT,
+    description: `Contributed to the development and deployment of generative AI solutions using AWS SageMaker. Collaborated closely with AI specialists to develop and refine deep learning algorithms. Gained hands-on experience in machine learning workflows, model training, and iterative improvement of AI-driven processes.`,
+    technologies: ["AWS SageMaker", "Generative AI", "Data Science"],
+  },
   {
     year: "2023 - 2024",
     role: "Specialist",
@@ -64,4 +73,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Austin, TX",
   email: "qasimkhan@utexas.edu",
+
 };
